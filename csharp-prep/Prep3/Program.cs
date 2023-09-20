@@ -8,10 +8,12 @@ class Program
         int secretNumber = randomGenerator.Next(1, 100);
 
         int guess = 0;
+        int count = 0;
 
         while (guess != secretNumber)
         {
             Console.Write("What is your guess? ");
+            count = count + 1;
             guess = int.Parse(Console.ReadLine());
             if (secretNumber > guess)
             {
@@ -23,7 +25,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("You guessed it!");
+                Console.WriteLine("You guessed it in " + count + " guesses!");
             }
         }
     }
