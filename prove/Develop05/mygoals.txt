@@ -1,0 +1,7 @@
+10
+Simple Goal:; trash; take out trash; 10; False
+Simple Goal:; dishes; wash all dishes in sink; 20; True
+Check List Goal:; temple; go to temple weekly; 50; False; 52; 500; 46
+Eternal Goal:; scriptures; read the scriptures daily; 5; False
+Check List Goal:; read; read a new book each month; 100; False; 12; 500; 11
+Check List Goal:; gym; go to the gym each day of the week; 10; True; 5; 100; 5
